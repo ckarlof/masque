@@ -4,7 +4,7 @@ services:
   h2o:
     build: ./testdata/h2o
     ports:
-      - "8081:8081/tcp"
+      - "8181:8081/tcp"
       - "8444:8444/tcp"
       - "8444:8444/udp"
     extra_hosts:
